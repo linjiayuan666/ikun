@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小黑子3</title>
+  <!-- 引入bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+  <!-- 引入animate.css 动画效果 -->
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+  <!-- 重置样式 -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- 公共样式 引入的是一个 less文件 -->
+  <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+  <!-- 首页样式 -->
+  <link rel="stylesheet/less" href="./assets/css/index.less" />
+</head>
+<body>
+  <!-- 头部 -->
+  <header class="header navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- 移动端的三条横杆菜单部分 -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+
+            <!-- LOGO图片 -->
+            <div class="navbar-brand logo" href="javascript:void(0)"><img src="./assets/image/logo.png"></div>
+
+        </div>
+        <!-- 导航 -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">                         
+                <li><a class="wow fadeInUp" data-wow-delay="0ms"  href="javascript:void(0)">Home</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="100ms" href="#banner">About Us</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="200ms" href="#work">Our Works</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="300ms" href="#do">do</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="400ms" href="#journal">Journal</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="500ms" href="javascript:void(0)">
+                    <img src="./assets/image/nav-img.png">
+                </a></li>
+            </ul>
+        </div>
+      </div>
+  </header>
+
+  <!-- 联系我们 -->
+  <div class="banner">
+    <div class="container">
+      <h1 class=" wow fadeInUp" data-wow-delay="100ms">
+        We welcome your inquiry
+      </h1>
+      <h2 class=" wow fadeInUp" data-wow-delay="300ms">联系方式：</h2>
+      <ul>
+        <li  class=" wow fadeInUp" data-wow-delay="300ms"><span>wechat</span> ：_xb2021</li>
+        <li class=" wow fadeInUp" data-wow-delay="400ms"><span>qq</span> :1097889594</li>
+        <li class="remark wow fadeInUp" data-wow-delay="500ms">电话:13169092722</li>
+        <li class="remark wow fadeInUp" data-wow-delay="600ms">邮箱：1097889594@qq.com</li>
+      </ul>
+      <div class="btn">
+        <div class="btn1"><a href="../index.html">back to home</a></div>
+        <div class="btn2"><a href="../ikun2/index2.html">back to shopping</a></div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="box">
+        <div class="top">
+          © 2014 Keepsake. All rights reserved. Theme by elemis.
+        </div>
+        <div class="bottom">
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img1.png">
+            </a>
+          </div>
+          
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img2.png">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img3.png">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img4.png">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img5.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+  // 实例化懒加载动画效果
+  new WOW().init();
+</script>

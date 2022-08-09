@@ -1,0 +1,68 @@
+/* banner部分 */
+.banner{
+    width: 100%;
+    background: pink;
+    padding: 5% 0%;
+    .container{
+        text-align: center;
+        h1{
+            font-size: 3em;
+            text-transform: uppercase; 
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+        h2{
+            font-size: 2em;
+            margin-bottom: 2%;
+        }
+        ul{
+            li{
+                color: black;
+                margin-bottom: 1%;
+                &:last-child{
+                    margin-bottom: 3%;
+                }
+                span{
+                    text-transform: uppercase;
+                }
+            }
+        }
+        .btn{
+            width: 50%;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            .btn1,.btn2{
+                width: 46%;
+                height: 3em;
+                line-height: 3em;
+                background: #eeb013;
+                transition: all linear .3s;
+                &:hover{
+                    transform: translateY(-10px);
+                    box-shadow: 0px 10px 10px 1px #ccc;
+                }
+                a{
+                    color: #141414;
+                }
+            }
+        }
+    }
+    @media screen and (max-width:800px){
+        .container{
+            .btn{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .btn1,.btn2{
+                    width: 100%;
+                }
+                .btn1{
+                    margin-bottom: 5%;
+                }
+            }
+        }
+    }
+} 

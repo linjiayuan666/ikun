@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小黑子</title>
+  <!-- 引入bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+  <!-- 引入animate.css 动画效果 -->
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+  <!-- 重置样式 -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- 公共样式 引入的是一个 less文件 -->
+  <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+  <!-- 首页样式 -->
+  <link rel="stylesheet/less" href="./assets/css/index.less" />
+</head>
+<body>
+  <!-- 头部 -->
+  <header class="header navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <!-- 移动端的三条横杆菜单部分 -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+
+            <!-- LOGO图片 -->
+            <div class="navbar-brand logo" href="javascript:void(0)"><img src="./assets/image/logo.png"></div>
+
+        </div>
+        <!-- 导航 -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">                         
+                <li><a class="wow fadeInUp" data-wow-delay="0ms"  href="javascript:void(0)">Home</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="100ms" href="#banner">About Us</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="200ms" href="#work">Our Works</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="300ms" href="#do">do</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="400ms" href="#journal">Journal</a></li>
+                <li><a  class="wow fadeInUp" data-wow-delay="500ms" href="javascript:void(0)">
+                    <img src="./assets/image/nav-img.png">
+                </a></li>
+            </ul>
+        </div>
+        <!-- 返回顶部 -->
+        <div id="up" class="up">
+          <a class="top" href="#banner">
+            <img src="./assets/image/top.svg" />
+          </a>
+        </div>
+    </div>
+  </header>
+  <!-- bannner -->
+  <div class="banner" id="banner">
+    <div class="container">
+        <div class="title">
+            <h3>We’re Keepsake, a digital & branding agency</h3>
+        </div>
+        
+        <p  class="remark wow fadeInUp" data-wow-delay="300ms">Specializing in web design, poster, motion video, based in London. We love to turn ideas into beautiful things.</p>
+    </div>
+  </div>
+
+  <!-- work -->
+  <div class="work" id="work">
+    <div class="container">
+        <div class="title">
+            <h3 class="left wow fadeInUp" data-wow-delay="100ms">Our Awesome Works <span>  --</span></h3>
+            <button class="right wow fadeInUp" data-wow-delay="200ms"> <a href="./ikun2/index2.html">更多>></a></button>
+        </div>
+        <div class="list">
+            <div class="pic wow fadeInUp" data-wow-delay="100ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="200ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="300ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="400ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="500ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="600ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="700ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="800ms"><img src="./assets/image/photo.png"></div>
+            <div class="pic wow fadeInUp" data-wow-delay="900ms"><img src="./assets/image/photo.png"></div>
+        </div>
+        <div class="subject">would you love to work with us?</div>
+        <div class="btn">
+          <button><a href="./ikun3/index3.html">contact  us</a> </button>
+        </div>
+        
+    </div>
+  </div>
+
+  <!-- do -->
+  <div class="do" id="do">
+    <div class="container">
+      <div class="title">
+        <h3> what do we do <span>  --</span></h3>
+      </div>
+      <p class="remark wow fadeInUp" data-wow-delay="300ms">Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+      <div class="list">
+        <div class="items wow fadeInUp" data-wow-delay="100ms">
+          <div class="avatar">
+            <a href="javascript:void(0)"><img src="./assets/image/do-img1.png"></a>
+            
+          </div>
+          <div class="content">
+            <h3>Web Design</h3>
+            <p>Donec elit non mi porta gravida eureget metus. Aenean eu leo quam. Pellentesque ornare sem por quam venenatis vestibulum.</p>
+          </div>
+          
+        </div>
+        <div class="items wow fadeInUp" data-wow-delay="300ms">
+          <div class="avatar">
+            <a href="javascript:void(0)"><img src="./assets/image/do-img2.png"></a>
+          </div>
+          <div class="content">
+            <h3>Motion Video</h3>
+            <p>Aenean lacinia bibendum nulla sed consectetur. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur.</p>
+          </div>
+          
+        </div>
+        <div class="items wow fadeInUp" data-wow-delay="500ms">
+          <div class="avatar">
+            <a href="javascript:void(0)"><img src="./assets/image/do-img3.png"></a>
+          </div>
+          <div class="content">
+            <h3>Print Design</h3>
+            <p>Maecenas sed diam eget risus varius blandit amet non magna. Nullam id dolor id nibh ultricies vehiculaelit praesent commodo.</p>
+          </div>
+          
+        </div>
+        <div class="items wow fadeInUp" data-wow-delay="700ms">
+          <div class="avatar">
+            <a href="javascript:void(0)"><img src="./assets/image/do-img4.png"></a>
+          </div>
+          <div class="content">
+            <h3>Illustration</h3>
+            <p>Cum sociis natoque penatibus et  dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac at.</p>
+          </div>
+          
+        </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+  <!-- journal -->
+  <div class="journal" id="journal">
+    <div class="container">
+      <div class="title">
+        
+        <h3>from the journal<span>  --</span></h3>
+      </div>
+      <p class="remark wow fadeInUp" data-wow-delay="100ms">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla.</p>
+      <div class="list">
+        <div class="items wow fadeInUp" data-wow-delay="100ms">
+          <div class="avatar">
+            <img src="./assets/image/journal-img1.png">
+          </div>
+          <div class="content">
+            <p>Oct 13, 2014  /  ıdentity</p>
+            <h3>Sollicitudin Tortor Ince</h3>
+            <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+          </div>
+        </div>
+        <div class="items wow fadeInUp" data-wow-delay="300ms">
+          <div class="avatar">
+            <img src="./assets/image/journal-img2.png">
+          </div>
+          <div class="content">
+            <p>Oct 23, 2014  /  Brandıng</p>
+            <h3>Sollicitudin Tortor Ince</h3>
+            <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+          </div>
+        </div>
+        <div class="items wow fadeInUp" data-wow-delay="500ms">
+          <div class="avatar">
+            <img src="./assets/image/journal-img3.png">
+          </div>
+          <div class="content">
+            <p>sep 19, 2014  /  ıdentity</p>
+            <h3>Sollicitudin Tortor Ince</h3>
+            <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+          </div>
+        </div>
+        <div class="items wow fadeInUp" data-wow-delay="700ms">
+          <div class="avatar">
+            <img src="./assets/image/journal-img4.png">
+          </div>
+          <div class="content">
+            <p>sep 27, 2014  /  Brandıng</p>
+            <h3>Sollicitudin Tortor Ince</h3>
+            <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="box">
+        <div class="top">
+          © 2014 Keepsake. All rights reserved. Theme by elemis.
+        </div>
+        <div class="bottom">
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img1.png">
+            </a>
+          </div>
+          
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img2.png">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img3.png">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img4.png">
+            </a>
+          </div>
+          <div class="pic">
+            <a href="#">
+              <img src="./assets/image/footer-img5.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+  // 实例化懒加载动画效果
+  new WOW().init();
+</script>

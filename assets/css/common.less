@@ -1,0 +1,126 @@
+/* 头部 */
+.header{
+    margin:4% 0% 3%;
+    background: #fff;
+    border: 0px;
+    border-radius: 0;
+    position: sticky;
+    left:0;
+    top:0;
+    width:100%;
+    z-index:10;
+
+        .logo{
+            img{
+                width: 100%;
+                height: 1.8em;
+                line-height: 1.8em;
+            }
+        }
+        .nav{
+            li{
+                a{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: #4d4d4d;
+                    text-align: center;
+                    line-height: 35px;
+                    font-size: 1.1em;
+                    &:hover{
+                        color: pink;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width:770px){
+            .nav{
+                li{
+                    a{
+                        margin: 0;
+                        width: 100%;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+} 
+
+/* 底部 */
+.footer{
+    background: #2d2d30;
+    width: 100%;
+    padding: 5% 0%;
+    .container{
+        .box{
+            margin: 0 auto;
+            text-align: center;
+            color: #fff;
+            .top{
+                margin-bottom: 2%;
+            }
+            .bottom{
+                width: 20%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                .pic{
+                    width: 20%;
+                    flex-wrap: nowrap;
+                }
+            }
+        }
+    }
+} 
+
+/* 返回顶部 */
+.up{
+    width:70px;
+    height:70px;
+    /* 固定定位 */
+    position: fixed;
+    right:45px;
+    bottom:45px;
+
+    .top{
+        width:100%;
+        height:100%;
+
+        img{
+            max-width:100%;
+        }
+
+        &:hover {
+            animation: up 1s;
+        }
+
+        @keyframes up {
+            from {
+              transform: scale3d(1, 1, 1);
+            }
+          
+            30% {
+              transform: scale3d(1.25, 0.75, 1);
+            }
+          
+            40% {
+              transform: scale3d(0.75, 1.25, 1);
+            }
+          
+            50% {
+              transform: scale3d(1.15, 0.85, 1);
+            }
+          
+            65% {
+              transform: scale3d(.95, 1.05, 1);
+            }
+          
+            75% {
+              transform: scale3d(1.05, .95, 1);
+            }
+          
+            to {
+              transform: scale3d(1, 1, 1);
+            }
+        }
+    }
+}
